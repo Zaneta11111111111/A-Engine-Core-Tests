@@ -1,5 +1,5 @@
 
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.7.2)
 
 project(A-Engine-tests)
 enable_testing()
