@@ -34,3 +34,7 @@ target_include_directories(test PUBLIC core)
 target_link_libraries(test gtest_main)
 add_test(NAME test COMMAND exampleTest)
 
+add_executable(windowPrototypes_test windowPrototypes_test.cc)
+target_include_directories(windowPrototypes_test PUBLIC core)
+target_link_libraries(windowPrototypes_test gtest_main gl_Core)
+add_test(NAME windowPrototypes_test COMMAND windowPrototypes_test)
