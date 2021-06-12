@@ -13,5 +13,10 @@ TEST(WindowProperties_test, BasicAssertions)
     test1->setWindowHeight(height);
     EXPECT_EQ(width, test1->getWindowWidth());
     EXPECT_EQ(height, test1->getWindowHeight());
+    width=1280; height=720;
+    test1->setWindowWidth(width);
+    test1->setWindowHeight(height);
+    EXPECT_EQ(width, test1->getWindowWidth());
+    EXPECT_EQ(height, test1->getWindowHeight());
 
 }
