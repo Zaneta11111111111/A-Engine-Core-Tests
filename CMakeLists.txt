@@ -32,7 +32,7 @@ add_executable(test main.cc)
 target_include_directories(test PUBLIC core)
 # Now simply link against gtest or gtest_main as needed. Eg
 target_link_libraries(test gtest_main)
-add_test(NAME test COMMAND exampleTest)
+add_test(NAME test COMMAND test)
 
 add_executable(windowPrototypes_test windowPrototypes_test.cc)
 target_include_directories(windowPrototypes_test PUBLIC core)
